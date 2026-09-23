@@ -1,0 +1,41 @@
+{
+  "XGBoost": {
+    "colsample_bytree": 0.6693177280283383,
+    "gamma": 0.07821852133554302,
+    "learning_rate": 0.08257044046773264,
+    "max_depth": 8,
+    "min_child_weight": 6,
+    "n_estimators": 97,
+    "reg_alpha": 0.18286599710730733,
+    "reg_lambda": 1.9019209960095647,
+    "subsample": 0.8553082375373402
+  },
+  "CatBoost": {
+    "iterations": 200,
+    "depth": 6,
+    "learning_rate": 0.1,
+    "l2_leaf_reg": 3,
+    "random_strength": 2.0,
+    "bagging_temperature": 0.0
+  },
+  "Random Forest": {
+    "class_weight": null,
+    "max_depth": 25,
+    "max_features": 0.3,
+    "min_samples_leaf": 1,
+    "min_samples_split": 6,
+    "n_estimators": 317
+  },
+  "MLP": {
+    "activation": "relu",
+    "alpha": 0.009932308858067881,
+    "batch_size": 16,
+    "hidden_layer_sizes": [
+      100,
+      50
+    ],
+    "learning_rate_init": 0.008669433863995045,
+    "max_iter": 500,
+    "solver": "adam"
+  }
+}

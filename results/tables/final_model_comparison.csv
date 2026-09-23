@@ -1,0 +1,5 @@
+Model,CV Accuracy (Mean±Std),Test Accuracy,ROC-AUC,Precision,Recall,F1,Specificity
+XGBoost,N/A,0.755,0.7868,0.8054,0.8571,0.8304,0.5167
+Random Forest,N/A,0.785,0.8296,0.8129,0.9,0.8542,0.5167
+MLP,N/A,0.725,0.7018,0.8058,0.8,0.8029,0.55
+CatBoost,N/A,0.735,0.7506,0.7702,0.8857,0.8239,0.3833
